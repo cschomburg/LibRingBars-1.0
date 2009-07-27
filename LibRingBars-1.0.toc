@@ -1,0 +1,11 @@
+## Interface: 30200
+## Title: LibRingBars-1.0
+## Author: Cargor
+## Version: 1.0
+## X-eMail: xconstruct@gmail.com
+## X-Website: http://www.xconstruct.net
+## X-Credits: roth/zork for his amazing Ring algorithms
+## Notes: Create circular statusbars
+
+LibStub.lua
+LibRingBars-1.0.lua
