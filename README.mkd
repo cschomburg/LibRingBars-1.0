@@ -1,7 +1,7 @@
 LibRingBars-1.0
 ===============
 
-This is a very stripped down version of RingMod by roth/zork.
+This is a very stripped down version of roth/zork's RingMod(http://www.wowinterface.com/downloads/info14174-TheRingThing.html)
 Well, and made into a library with some API.
 
 local ring = LibStub("LibRingBars-1.0").new(type [, name, parent, config])
