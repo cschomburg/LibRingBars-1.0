@@ -1,16 +1,17 @@
 LibRingBars-1.0
 ===============
 
-This is a very stripped down version of roth/zork's RingMod(http://www.wowinterface.com/downloads/info14174-TheRingThing.html)
+This is a very stripped down version of roth/zork's RingMod(http://www.wowinterface.com/downloads/info14174-TheRingThing.html)  
 Well, and made into a library with some API.
 
 local ring = LibStub("LibRingBars-1.0").new(type [, name, parent, config])
-	Creates a new ring statusbar
-	It basically takes the same arguments as CreateFrame() instead that
-	you can also use an additional config-table (see below for defaults)
+  Creates a new ring statusbar  
+  It basically takes the same arguments as CreateFrame() instead that  
+  you can also use an additional config-table (see below for defaults)
 
 
 NOTE: You can call :GetX on the bar to get the current value
+
 *	ring:SetValue(number)			: Sets the current value
 *	ring:SetMinMaxValues(min, max)	: Sets the bounds of the status bar (default 0-1)
 *	ring:SetSize(number)			: Sets the size (width + height) of the ring (default 256)
